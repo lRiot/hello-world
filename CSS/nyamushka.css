@@ -75,6 +75,7 @@ h1 {
     font-family: 'Exo 2.0 Thin', sans-serif;
     font-size: 36px;
     font-weight: 100;
+
     
 
 
@@ -91,7 +92,7 @@ p{
     background: linear-gradient(135deg,transparent 35px,#1698d9 0) top left;
     border-radius: 10px;
     position: relative;
-    margin: 25px;
+    margin: 35px;
     cursor: pointer;
 }
 .product_card_layer_2{
@@ -116,7 +117,7 @@ p{
     border-radius: 10px;
     position: relative;
     cursor: default;
-    margin: 25px;
+    margin: 35px;
 }
 .product_card_unavailable:after{
     width: 312px;
