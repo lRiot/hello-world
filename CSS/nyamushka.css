@@ -4,14 +4,14 @@ html {
   
 }
 body{
-
+    min-height:100vh;
     height: 100%;
     margin: 0px;
     position: relative;
     display: table;
     flex-direction: column;
     width: 100%;
-}
+}   
 
 main{
     
@@ -23,6 +23,14 @@ main{
     display: flex;
     align-items: center;
 }
+.content{
+
+    display: flex;
+    position: relative;
+
+}
+
+
 section{
     height: 100%;
     display: flex;
@@ -36,7 +44,7 @@ body:before{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
     content: "";
     display: block;
-    height: 30%;
+    height: 25%;
     left: 0;
     position: absolute;
     top: 0;
@@ -49,7 +57,7 @@ body:after{
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
     content: "";
     display: block;
-    height: 30%;
+    height: 25%;
     left: 0;
     position: absolute;
     bottom: 0;
